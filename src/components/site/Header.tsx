@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/basin-logo.png.asset.json";
+import logoAsset from "@/assets/basin-logo.png";
 import { Facebook, Instagram, Twitter, Youtube, Phone, MapPin, Mail, ChevronDown, Menu } from "lucide-react";
 import { useState } from "react";
 
@@ -36,7 +36,7 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-6 h-20 flex items-center justify-between gap-6">
         <a href="/" className="flex items-center gap-2 shrink-0">
           <div className="h-12 w-12 rounded-lg bg-navy grid place-items-center overflow-hidden">
-            <img src={logoAsset.url} alt="Abasin Express logo" className="h-full w-full object-cover" width={48} height={48} />
+            <img src={logoAsset} alt="Abasin Express logo" className="h-full w-full object-cover" width={48} height={48} />
           </div>
           <div className="leading-tight">
             <div className="font-extrabold text-navy tracking-tight text-lg">ABASIN EXPRESS</div>
