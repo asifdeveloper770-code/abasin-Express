@@ -11,8 +11,8 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Abasin Express — Explore the World | Flights, Hotels, Cars & Packages" },
       { name: "description", content: "Book flights, hotels, cars and holiday packages with Abasin Express Tourist & Travel Agency. Best prices, 24/7 support, secure booking, and up to 40% off your first booking." },
-      { property: "og:title", content: "Abasin Express — Explore the World" },
-      { property: "og:description", content: "Flights, hotels, cars, and holiday packages at the best prices. Your journey, our priority." },
+      { property: "og:title", content: "Abasin Express — Explore the World | Flights, Hotels, Cars & Packages" },
+      { property: "og:description", content: "Book flights, hotels, cars and holiday packages with Abasin Express Tourist & Travel Agency. Best prices, 24/7 support, secure booking, and up to 40% off your first booking." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
